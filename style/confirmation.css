@@ -1,0 +1,391 @@
+/* Overall body styles */
+body {
+    font-family: 'Great Vibes',;
+    margin: 0;
+    padding: 0;
+    background-color: #F9D8A2;
+    color: #004632;
+    zoom: 70%;
+}
+
+/* Logo styling */
+#logo {
+    width: 10%;
+    height: 10%;
+    display: block;
+    margin: 20px auto; 
+    align-self: center; 
+}
+
+/* Link styling */
+a {
+    color: #004632;
+    text-decoration: none;
+}
+
+/* Hover effect for links */
+a:hover {
+    color: #E9C792;
+}
+
+/* Header styling */
+header {
+    background-color: #004632;
+    padding: 0px;
+    text-align: center;
+}
+
+/* Navigation styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* List styling */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* List item styling */
+nav li {
+    margin: 10px;
+}
+
+/* Image styling for navigation bar */
+nav a img {
+    width: 80px;
+    height: auto;
+}
+
+/* Link styling */
+nav a {
+    color: #E9C792;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 5px;
+}
+
+/* Dropdown button styling */
+.button.dropbtn {
+    background-color: #E9C792;
+}
+
+/* Drop button styling */
+.dropbtn {
+    background-color: #004632;
+    color: #E9C792;
+    padding: 5px;
+    border: 5px;
+    cursor: pointer;
+    font-family: times;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Hover effect for dropbutton */
+.dropbtn:hover {
+    background-color: #E9C792;
+    color: #004632;
+}
+
+/* Dropdown container styling */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown content styling */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #E9C792;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Dropdown content link styling */
+.dropdown-content a {
+    color: #004632;
+    text-decoration: none;
+    display: block;
+}
+
+/* Hover effect for dropdown content links */
+.dropdown-content a:hover {
+    background-color: #004632;
+    color: #E9C792;
+}
+
+/* Display dropdown content on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Block hover effect */
+#block:hover {
+    background-color: #E9C792;
+    color: #004632;
+    border-radius: 5px;
+}
+
+/* Shared class anchor hover effect */
+.shared-class a:hover {
+    background-color: #E9C792;
+    color: #004632;
+}
+
+/* Confirmation styling */
+#confirmation {
+    width: 1000px;
+    height: 600px;
+    margin: 125px auto;
+    background: linear-gradient(to bottom, #F9D8A2, #E9C792);
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0.3, 0.2, 0.2, 0.2);
+    border-radius: 8px;
+    font-size: 45px;
+    text-align: center;
+}
+
+/* Heading 2 styling */
+h2 {
+    text-align: center;
+    color: #004632;
+    font-size: 30px;
+}
+
+/* Form styling */
+form {
+    display: grid;
+}
+
+/* Label styling */
+label {
+    font-weight: bold;
+    color: #004632;
+    font-size: 25px;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #003520;
+}
+
+/* Section styling */
+section {
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+    background-color: #F2CC91;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact styling */
+#contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Contact info styling */
+.contact-info {
+    text-align: left;
+}
+
+/* Social icons styling */
+.social-icons {
+    display: flex;
+    margin-top: 10px;
+}
+
+/* Icon styling */
+.icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #004632;
+    color: #004632;
+}
+
+/* Contact section on smaller screens */
+#contact {
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Contact info on smaller screens */
+.contact-info {
+    text-align: center;
+}
+
+/* Social icons on smaller screens */
+.social-icons {
+    display: flex;
+    margin-top: 10px;
+}
+
+/* Icon hover effect */
+.icon:hover {
+    transform: scale(1.2);
+}
+
+/* Hours section styling */
+#hours {
+    background-color: #F2CC91;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Heading 2 in hours section styling */
+#hours h2 {
+    color: #004632;
+}
+
+/* Paragraphs in hours section styling */
+#hours p {
+    margin: 10px 0;
+    font-size: 25px;
+    color: #004632;
+}
+
+/* Footer styling */
+footer {
+    background-color: #004632;
+    color: #F2CC91;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 125px;
+}
+
+/* Footer paragraphs styling */
+footer p {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+/* Footer links styling */
+footer a {
+    color: #F2CC91;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hover effect for footer links */
+footer a:hover {
+    color: #004632;
+}
+
+/* Media queries for smaller screens */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    nav a img {
+        width: 60px;
+    }
+
+    footer p {
+        margin: 20px 0;
+        font-size: 15px;
+    }
+
+    .contact-info p {
+        font-size: 16px;
+        color: #004632;
+    }
+
+    #hours p {
+        margin: 10px 0;
+        font-size: 16px;
+        color: #004632;
+    }
+
+    .dropbtn {
+        font-size: 16px;
+    }
+
+    #confirmation {
+        max-width: 80%;
+        margin: 20px auto;
+        background: linear-gradient(to bottom, #F9D8A2, #E9C792);
+        padding: 20px;
+        box-shadow: 0 0 20px rgba(0.3, 0.2, 0.2, 0.2);
+        border-radius: 8px;
+        font-size: 30;
+    }
+}
+
+/* Media queries for even smaller screens */
+@media screen and (max-width: 480px) {
+    nav a {
+        font-size: 14px;
+    }
+
+    nav a img {
+        width: 50px;
+    }
+
+    footer p {
+        margin: 20px 0;
+        font-size: 15px;
+    }
+
+    .contact-info p {
+        font-size: 16px;
+        color: #004632;
+    }
+
+    #hours p {
+        margin: 10px 0;
+        font-size: 16px;
+        color: #004632;
+    }
+
+    .dropbtn {
+        font-size: 16px;
+    }
+
+    #confirmation {
+        max-width: 80%;
+        height: 450px;
+        margin: 20px auto;
+        background: linear-gradient(to bottom, #F9D8A2, #E9C792);
+        padding: 20px;
+        box-shadow: 0 0 20px rgba(0.3, 0.2, 0.2, 0.2);
+        border-radius: 8px;
+        font-size: 30;
+        text-align: center;
+    }
+}

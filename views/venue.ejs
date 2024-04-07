@@ -1,0 +1,107 @@
+<!DOCTYPE html> <!-- Declaring the document type as HTML5 -->
+
+<html lang="en"> <!-- Defining the language of the document -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Declaring character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Setting viewport for responsive design -->
+    <link rel="stylesheet" type="text/css" href="venue.css"> <!-- Linking to an external CSS stylesheet -->
+    <title>ED3N CAFE</title> <!-- Setting the title of the document -->
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/"><img src="logo.png" alt="ED3N CAFE Logo" id="block"></a></li> <!-- Navigation link with company logo -->
+                <li class="shared-class"><a href="/menu">Menu</a></li> <!-- Menu link -->
+                <li class="shared-class"><a href="/Booking">Booking</a></li> <!-- Booking link -->
+                <div class="dropdown"> <!-- Dropdown menu for Services -->
+                    <button class="dropbtn">Services</button>
+                    <div class="dropdown-content">
+                        <li class="shared-class"><a href="/Catering">Catering</a></li> <!-- Catering link -->
+                        <li class="shared-class"><a href="/Venue">Venue</a></li> <!-- Venue link -->
+                </div>   
+            </ul>
+        </nav>
+    </header>
+
+    <div class="venue">
+        <h1>Host Your Events at ED3N CAFE - A Perfect Venue for Every Occasion</h1> <!-- Venue heading -->
+        <p>Welcome to ED3N CAFE, your ideal venue for creating unforgettable memories. Whether it's a cozy gathering, a corporate event, or a special celebration, our space in Blanchardstown Village is designed to accommodate your needs.</p> <!-- Venue description -->
+        <ul>
+            <li>Our venue offers a spacious and versatile setting that can be customized to suit your event.</li> <!-- Venue features -->
+            <li>Immerse your guests in the cozy and inviting atmosphere that ED3N CAFE is renowned for.</li>
+            <li>Immerse your guests in the charm of outdoor seating, where they can enjoy the fresh air and a relaxed atmosphere.</li>
+            <li>And feel free to check our socials for more images of the space</li>
+        </ul>
+        <p>Ready to book your event at ED3N CAFE? Our booking process is simple and straightforward.</p> <!-- Booking information -->
+        <p> Fill out our online form, and our team will get in touch with you to discuss your requirements and finalize the details.</p>
+    </div>
+
+    <div class="gallery">
+        <h2>Gallery</h2> <!-- Gallery heading -->
+        <div class="gallery-item">
+            <img src="v1.jpg" alt="Gallery Image 1"> <!-- Gallery image 1 -->
+            <div class="gallery-caption">Even our inside seating has a natural vibe</div> <!-- Caption for image 1 -->
+        </div>
+
+        <div class="gallery-item">
+            <img src="v2.jpg" alt="Gallery Image 2"> <!-- Gallery image 2 -->
+            <div class="gallery-caption">The cafe bar can serve you all day long</div> <!-- Caption for image 2 -->
+        </div>
+
+        <div class="gallery-item">
+            <img src="v3.jpg" alt="Gallery Image 3"> <!-- Gallery image 3 -->
+            <div class="gallery-caption">Our unique decor offers you a unique experience</div> <!-- Caption for image 3 -->
+        </div>      
+    </div>
+
+    <div class="container">
+        <h2>Contact Us</h2> <!-- Contact heading -->
+        <form action="/submit1" method="post"> <!-- Form for contacting -->
+            <label for="name">Name:</label> <!-- Name input field -->
+            <input type="text" id="name" name="name" required><br> <!-- Name input field -->
+
+            <label for="email">Email:</label> <!-- Email input field -->
+            <input type="email" id="email" name="email" required><br> <!-- Email input field -->
+
+            <label for="comments">Comments:</label><br> <!-- Comments input field -->
+            <input type="comments" id="comments" name="comments" rows=4><br> <!-- Comments input field -->
+
+            <input type="submit" value="Submit"> <!-- Submit button -->
+        </form> 
+    </div>
+
+    <footer>
+        <section id="contact">
+            <div class="contact-info">
+                <h2>Contact Us</h2> <!-- Contact heading -->
+                <p>Feel free to contact us through our contact form</p> <!-- Contact information -->
+            </div>
+
+            <div class="social-icons"> <!-- Social media section -->
+                <a href="https://www.instagram.com/ed3ncafe/?hl=en" target="_blank">
+                    <img src="insta.png" alt="Instagram icon" class="icon"> <!-- Instagram icon -->
+                </a>
+
+                <a href="https://www.facebook.com/people/ED3N-Caf%C3%A9/100083322580179/?paipv=0&eav=AfZFNcyrVLydb189aYjIWZgvMdFaErOBXDsRzrSL1SQfvaLc3agEmlbAR2SYgVq8QtY&_rdr" target="_blank">
+                    <img src="icon2.png" alt="Facebook icon" class="icon"> <!-- Facebook icon -->
+                </a>
+            </div>
+        </section>
+        <section id="hours">
+            <h2>Opening Hours</h2> <!-- Opening hours heading -->
+            <p>Monday - Wednesday: 08:30 - 17:00</p> <!-- Business hours -->
+            <p>Thursday - Friday: 08:30 - 18:00</p>
+            <p>Saturday: 10:00 - 18:00</p>
+            <p>Sunday: 13:00 - 18:00</p>
+        </section>
+
+        <p>&copy; 2024 ED3N CAFE. All rights reserved.</p> <!-- Copyright information -->
+    </footer>
+</body>
+</html>
+
+
+

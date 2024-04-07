@@ -1,0 +1,397 @@
+/* Overall body styles */
+body {
+    font-family: 'times', ; 
+    font-size: 25px; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #F9D8A2; 
+    color: #004632; 
+    zoom: 70%; 
+}
+
+/* Heading styles */
+h2 {
+    color: #004632; 
+}
+
+/* Section styles */
+section {
+    text-align: left; 
+    padding: 20px; 
+    margin: 20px; 
+    background-color: #E9C792; 
+    border-radius: 10px; 
+    box-shadow: 0 5px 9px rgba(0.2, 0.2, 0.2, 0.2); 
+    text-align: center; 
+}
+
+/* Anchor styles */
+a {
+    color: #004632; 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #E9C792; 
+}
+
+/* Header styles */
+header {
+    background-color: #004632; 
+    padding: 0px; 
+    text-align: center; 
+}
+
+/* Navigation styles */
+nav {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    align-items: center; 
+}
+
+nav li {
+    margin: 10px; 
+}
+
+nav a img {
+    width: 80px; 
+    height: auto; 
+}
+
+nav a {
+    color: #E9C792; 
+    text-decoration: none; 
+    font-weight: bold; 
+    font-size: 25px; 
+    margin: 5px; 
+}
+
+/* Button styles */
+.button.dropbtn {
+    background-color: #E9C792; 
+}
+
+.dropbtn {
+    background-color: #004632; 
+    color: #E9C792; 
+    padding: 5px; 
+    border: 5px; 
+    cursor: pointer; 
+    font-family: times; 
+    font-size: 25px; 
+    font-weight: bold; 
+}
+
+.dropbtn:hover {
+    background-color: #E9C792; 
+    color: #004632; 
+}
+
+/* Dropdown styles */
+.dropdown {
+    position: relative; 
+    display: inline-block; 
+}
+
+.dropdown-content {
+    display: none; 
+    position: absolute; 
+    background-color: #E9C792; 
+    min-width: 160px; 
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); 
+    z-index: 1; 
+}
+
+.dropdown-content a {
+    color: #004632; 
+    text-decoration: none; 
+    display: block; 
+}
+
+.dropdown-content a:hover {
+    background-color: #004632; 
+    color: #E9C792; 
+    border-radius: 5px; 
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; 
+}
+
+/* Block styles */
+#block:hover {
+    background-color: #E9C792; 
+    color: #004632; 
+    border-radius: 5px; 
+}
+
+/* Shared class styles */
+.shared-class a:hover {
+    background-color: #E9C792; 
+    color: #004632; 
+}
+
+/* Gallery styles */
+#gallery {
+    text-align: center; 
+    margin: 20px; 
+    background-color:#004632; 
+    border-radius: 10px; 
+}
+
+#gallery h2 {
+    font-size: 30px; 
+    margin-bottom: 15px; 
+    color:#F9D8A2; 
+}
+
+.gallery-item {
+    width: 30%; 
+    margin: auto; 
+    display:inline-block; 
+}
+
+.gallery-item img {
+    width: 100%; 
+    max-width: 300px; 
+    border-radius: 10px; 
+    border-style: solid; 
+    border-color: #F9D8A2; 
+    border-width: 5px; 
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1); 
+}
+
+.gallery-caption {
+    padding: 10px; 
+    text-align: center; 
+    background-color: #E9C792; 
+    border-radius: 10px; 
+    color: #004632; 
+    margin: 15px; 
+}
+
+/* Video container styles */
+#video-container {
+    text-align: center; 
+    margin: 20px; 
+    background-color: #004632; 
+    border-radius: 10px; 
+}
+
+#video-container h2 {
+    font-size: 30px; 
+    margin-bottom: 15px; 
+    color: #F9D8A2; 
+}
+
+#video-container video {
+    width: 50%; 
+    max-width: 400px; 
+    border-radius: 10px; 
+    border-style: solid; 
+    border-color: #F9D8A2; 
+    border-width: 5px; 
+}
+
+#video-container .video-caption {
+    padding: 10px; 
+    text-align: center; 
+    background-color: #E9C792; 
+    border-radius: 10px; 
+    color: #004632; 
+    margin: 15px; 
+}
+
+/* Audio container styles */
+#audio-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+
+/* Styling for contact section */
+#contact {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #F2CC91; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    text-align: center; 
+}
+
+/* Styling for text in the contact section */
+.contact-info {
+    text-align: center; 
+}
+
+/* Styling for social media icons */
+.social-icons {
+    display: flex; 
+    margin-top: 10px; 
+}
+
+/* Styling for social media icons */
+.icon {
+    width: 40px; 
+    height: 40px; 
+    margin-right: 10px; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+/* Styling for footer */
+footer {
+    text-align: center; 
+    padding: 20px; 
+    background-color: #004632; 
+    color: #004632; 
+}
+
+#contact {
+    flex-direction: column; 
+    align-items: center;
+}
+
+/* Styles for contact information */
+.contact-info {
+    text-align: center; 
+}
+
+/* Styles for social icons */
+.social-icons {
+    display: flex; 
+    margin-top: 10px; 
+}
+
+/* Styles for individual icons */
+.icon {
+    width: 40px; 
+    height: 40px; 
+    margin-right: 10px; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+/* Styles for opening hours section */
+#hours {
+    background-color: #F2CC91; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    text-align: center; 
+}
+
+/* Styles for heading within opening hours section */
+#hours h2 {
+    color: #004632; 
+}
+
+/* Styles for paragraphs within opening hours section */
+#hours p {
+    margin: 10px 0; 
+    font-size: 25px; 
+    color: #004632; 
+}
+
+/* Styling for footer contact section */
+#contact h2 {
+    color: #004632; 
+}
+
+.contact-info p {
+    font-size: 25px; 
+    color: #004632; 
+}
+
+.icon:hover {
+    transform: scale(1.2); 
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column; 
+        text-align: center; 
+    }
+
+    nav ul {
+        flex-direction: column; 
+        text-align: center; 
+    }
+
+    nav li {
+        margin: 10px 0; 
+    }
+
+    nav a {
+        font-size: 16px; 
+    }
+
+    nav a img {
+        width: 60px; 
+    }
+
+    footer p {
+        margin: 20px 0; 
+        font-size: 15px; 
+    }
+
+    .contact-info p {
+        font-size: 16px; 
+        color: #004632; 
+    }
+
+    #hours p {
+        margin: 10px 0; 
+        font-size: 16px; 
+        color: #004632; 
+    }
+
+    .dropbtn {
+        font-size: 16px; 
+    }
+}
+
+/* Media query for screens with a maximum width of 480px */
+@media screen and (max-width: 480px) {
+    nav a {
+        font-size: 14px; 
+    }
+
+    nav a img {
+        width: 50px; 
+    }
+
+    footer p {
+        margin: 20px 0; 
+        font-size: 15px; 
+    }
+
+    .contact-info p {
+        font-size: 16px; 
+        color: #004632; 
+    }
+
+    #hours p {
+        margin: 10px 0; 
+        font-size: 16px; 
+        color: #004632; 
+    }
+
+    .dropbtn {
+        font-size: 16px; 
+    }
+}

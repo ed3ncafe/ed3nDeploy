@@ -1,0 +1,350 @@
+/* Setting the overall body styles */
+body {
+    font-family: 'Great Vibes', ;
+    margin: 0;
+    padding: 0;
+    background-color: #F9D8A2;
+    color: #004632;
+    zoom: 70%;
+}
+
+/* Styling for the logo */
+#logo {
+    width: 10%;
+    height: 10%;
+    margin: 20px auto;
+    align-self: center;
+}
+
+/* Styling for links */
+a {
+    color: #004632;
+    text-decoration: none;
+}
+
+/* Hover effect for links */
+a:hover {
+    color: #E9C792;
+}
+
+/* Styling for the header */
+header {
+    background-color: #004632;
+    padding: 0px;
+    text-align: center;
+}
+
+/* Styling for the navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styling for the list within the navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Styling for individual list items in the navigation */
+nav li {
+    margin: 10px;
+}
+
+/* Styling for images within navigation bar */
+nav a img {
+    width: 80px;
+    height: auto;
+}
+
+/* Styling for navigation links */
+nav a {
+    color: #E9C792;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 5px;
+}
+
+
+/* Styling for the dropbutton */
+.dropbtn {
+    background-color: #004632;
+    color: #E9C792;
+    padding: 5px;
+    border: 5px;
+    cursor: pointer;
+    font-family: times;
+    font-size: 25px;
+    font-weight: bold;
+}
+  
+/* Hover effect for the drop button */
+.dropbtn:hover {
+    background-color: #E9C792;
+    color: #004632;
+}
+  
+/* Styling for the dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+/* Styling for the dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #E9C792;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+/* Styling for dropdown links */
+.dropdown-content a {
+    color: #004632;
+    text-decoration: none;
+    display: block;
+}
+  
+/* Hover effect for dropdown links */
+.dropdown-content a:hover {
+    background-color: #004632;
+    color: #E9C792;
+}
+  
+/* Displaying dropdown content when hovering over the dropdown container */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Hover effect for logo element */
+#block:hover {
+    background-color: #E9C792;
+    color: #004632;
+    border-radius: 5px;
+}
+
+/* Hover effect for shared-class */
+.shared-class a:hover {
+    background-color: #E9C792;
+    color: #004632;
+}
+
+/* Styling for the form container */
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    background: linear-gradient(to bottom, #F9D8A2, #E9C792);
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0.3, 0.2, 0.2, 0.2);
+    border-radius: 8px;
+}
+/* Styles for h2 headings */
+h2 {
+    text-align: center;
+    color: #004632; 
+    font-size: 30px;
+}
+
+/* Styles for forms */
+form {
+    display: grid;
+}
+
+/* Styles for labels */
+label {
+    font-weight: bold; 
+    color: #004632; 
+    font-size: 25px;
+}
+
+/* Styles for input and textarea fields */
+input, textarea {
+    width: 100%; 
+    padding: 10px; 
+    margin-top: 5px; 
+    margin-bottom: 15px; 
+    border: 1px solid #004632; 
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #004632;
+    background-color: #FFF;
+}
+
+/* Hover effect for form button */
+button:hover {
+    background-color: #003520; 
+}
+
+/* Styles for sections */
+section {
+    text-align: left; 
+    padding: 20px;
+    margin: 20px; 
+    background-color: #F2CC91;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* Styling for contact section */
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2CC91;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for text in the contact section */
+.contact-info {
+    text-align: center;
+}
+
+/* Styling for social media icons */
+.social-icons {
+    display: flex;
+    margin-top: 10px;
+}
+
+/* Styling for social media icons */
+.icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Styling for footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #004632;
+    color: #004632;
+}
+
+/* Styling for hours section */
+#hours {
+    background-color: #F2CC91;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+#hours h2 {
+    color: #004632;
+}
+
+#hours p {
+    margin: 10px 0;
+    font-size: 25px;
+    color: #004632;
+}
+
+/* Styling for footer contact section */
+#contact h2 {
+    color: #004632;
+}
+
+.contact-info p {
+    font-size: 25px;
+    color: #004632;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column; 
+        text-align: center; 
+    }
+
+    nav li {
+        margin: 10px 0; 
+    }
+
+    nav a {
+        font-size: 16px; 
+    }
+
+    nav a img {
+        width: 60px; 
+    }
+
+    /* Styles for footer paragraphs */
+    footer p {
+        margin: 20px 0; 
+        font-size: 15px; 
+    }
+
+    /* Styles for contact information paragraphs */
+    .contact-info p {
+        font-size: 16px;
+        color: #004632; 
+    }
+
+    /* Styles for paragraphs within opening hours section */
+    #hours p {
+        margin: 10px 0; 
+        font-size: 16px; 
+        color: #004632; 
+    }
+
+    /* Styles for dropdown button */
+    .dropbtn {
+        font-size: 16px; 
+    }
+}
+
+/* Media query for screens with a maximum width of 480px */
+@media screen and (max-width: 480px) {
+    nav a {
+        font-size: 14px; 
+    }
+
+    nav a img {
+        width: 50px; 
+    }
+
+    /* Styles for footer paragraphs */
+    footer p {
+        margin: 20px 0;
+        font-size: 15px;
+    }
+
+    /* Styles for contact information paragraphs */
+    .contact-info p {
+        font-size: 16px; 
+        color: #004632; 
+    }
+
+    /* Styles for paragraphs within opening hours section */
+    #hours p {
+        margin: 10px 0; 
+        font-size: 16px; 
+        color: #004632; 
+    }
+
+    /* Styles for dropdown button */
+    .dropbtn {
+        font-size: 16px; 
+    }
+}

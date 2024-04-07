@@ -1,0 +1,433 @@
+/* Overall styles for the body */
+body {
+    font-family: 'Great Vibes', ;
+    margin: 0;
+    padding: 0;
+    background-color: #F9D8A2;
+    color: #004632;
+    zoom: 70%;
+}
+/* Styles for the logo */
+#logo {
+    width: 10%;
+    height: 10%;
+    display: block;
+    margin: 20px auto;
+    align-self: center;
+}
+/* Styles for links */
+a {
+    color: #004632;
+    text-decoration: none;
+}
+/* Hover styles for links */
+a:hover {
+    color: #E9C792;
+}
+/* Styles for header */
+header {
+    background-color: #004632;
+    padding: 0px;
+    text-align: center;
+}
+/* Styles for navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Styles for navigation list */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+/* Styles for navigation items */
+nav li {
+    margin: 10px; 
+}
+/* Styles for navigation img */
+nav a img {
+    width: 80px; 
+    height: auto; 
+}
+/* Style for links */
+nav a {
+    color: #E9C792;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 5px; 
+}
+/* Styles for dropdown button */
+.button.dropbtn {
+    background-color: #E9C792;
+}
+/* Styles for dropdown button */
+.dropbtn {
+    background-color: #004632;
+    color: #E9C792;
+    padding: 5px;
+    border: 5px;
+    cursor: pointer;
+    font-family: times;
+    font-size: 25px;
+    font-weight: bold;
+}
+/* Hover styles for dropdown button */
+.dropbtn:hover {
+    background-color: #E9C792;
+    color: #004632;
+}
+/* Styles for dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+ /* Styles for dropdown menu */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #E9C792;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: #004632;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: #004632;
+    color: #E9C792;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Styles for logo on hover */
+#block:hover {
+    background-color: #E9C792;
+    color: #004632;
+    border-radius: 5px;
+}
+
+/* Styles for shared class */
+.shared-class a:hover {
+    background-color: #E9C792;
+    color: #004632;
+}
+
+/* Styles for venue */
+.venue {
+    background-color: #004632;
+    color:#E9C792;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.venue ul li {
+    list-style: none;
+}
+
+/* Styles for gallery */
+.gallery {
+    text-align: center;
+    margin: 20px;
+    background-color:#004632;
+    border-radius: 10px;
+}
+
+/* Styles for gallery heading */
+.gallery-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Styles for gallery item */
+.gallery-item {
+    width: 30%; 
+    margin: auto;
+    display:inline-block;
+}
+
+/* Styles for gallery image */
+.gallery-item img {
+    width: 100%; 
+    max-width: 400px; 
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #F9D8A2;
+    border-width: 5px;
+}
+
+/* Styles for gallery image hover effect */
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+/* Styles for gallery caption */
+.gallery-caption {
+    padding: 10px;
+    text-align: center;
+    background-color: #E9C792;
+    border-radius: 10px;
+    color: #004632;
+    margin: 15px;
+}
+
+/* Styles for form container */
+.container {
+    max-width: 2000px;
+    height: 850px;
+    margin: 50px auto;
+    background: linear-gradient(to bottom, #F9D8A2, #E9C792);
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0.3, 0.2, 0.2, 0.2);
+    border-radius: 8px;
+}
+
+/* Styles for headings */
+h2 {
+    text-align: center;
+    color: #004632;
+    font-size: 35px;
+}
+
+/* Styles for forms */
+form {
+    display: grid;
+    grid-gap: 15px;
+}
+
+/* Styles for labels */
+label {
+    font-weight: bold;
+    color: #004632;
+    font-size: 30px;
+}
+
+/* Styles for input and textarea */
+input, textarea {
+    width: 100%;
+    height: 75px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #004632;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #004632;
+    background-color: #FFF;
+    font-size: 25px;
+}
+
+/* Styles for sections */
+section {
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+    background-color: #E9C792;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for contact section */
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2CC91;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for text in the contact section */
+.contact-info {
+    text-align: center;
+}
+
+/* Styling for social media icons position */
+.social-icons {
+    display: flex;
+    margin-top: 10px;
+}
+
+/* Styling for social media icons */
+.icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    transform: 0.3s ease-in-out;
+}
+
+/* Styling for footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #004632;
+    color: #004632;
+}
+
+/* Styling for hours section */
+#hours {
+    background-color: #F2CC91;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+#hours h2 {
+    color: #004632;
+}
+
+#hours p {
+    margin: 10px 0;
+    font-size: 25px;
+    color: #004632;
+}
+
+/* Styling for footer contact section */
+#contact h2 {
+    color: #004632;
+}
+
+.contact-info p {
+    font-size: 25px;
+    color: #004632;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center; 
+    }
+
+    nav ul {
+        flex-direction: column; 
+        text-align: center; 
+    }
+
+    nav li {
+        margin: 10px 0; 
+    }
+
+    nav a {
+        font-size: 25px; 
+    }
+
+    nav a img {
+        width: 60px;
+    }
+
+    .gallery {
+        display: block; 
+    }
+
+    .gallery-item {
+        width: 100%; 
+    }
+
+    .gallery-item img{
+        width: 100%; 
+        display: block; 
+        margin-bottom: 10px; 
+        margin: auto;
+    }
+    footer p {
+        margin: 20px 0;
+        font-size: 15px;
+    }
+    .contact-info p {
+        font-size: 16px;
+        color: #004632;
+    }
+    #hours p {
+        margin: 10px 0;
+        font-size: 16px;
+        color: #004632;
+    }
+    .venue {
+        background-color: #004632;
+        color:#E9C792;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        border-radius: 10px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    .venue li {
+        list-style: none;
+        text-align: center;
+        padding-right: 40px;
+    }
+    .container {
+        max-width: auto;
+        margin: 15px 15px 15px 15px;
+        background: linear-gradient(to bottom, #F9D8A2, #E9C792); 
+        padding: 20px;
+        box-shadow: 0 0 20px rgba(0.3, 0.2, 0.2, 0.2);
+        border-radius: 8px;
+    }
+    .dropbtn {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav a {
+        font-size: 20px; 
+    }
+
+    nav a img {
+        width: 50px; 
+    }
+
+    .gallery {
+        display: block; 
+    }
+
+    .gallery-item {
+        width: 100%; 
+    }
+
+    .gallery-item img{
+        width: 250px; 
+        display: block; 
+        margin-bottom: 10px; 
+    }
+    footer p {
+        margin: 20px 0;
+        font-size: 15px;
+    }
+    .contact-info p {
+        font-size: 16px;
+        color: #004632;
+    }
+    #hours p {
+        margin: 10px 0;
+        font-size: 16px;
+        color: #004632;
+    }
+    .dropbtn {
+        font-size: 16px;
+    }
+}

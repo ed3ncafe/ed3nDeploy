@@ -1,0 +1,113 @@
+<!DOCTYPE html> <!-- Declaring the document type as HTML5 -->
+
+<html lang="en">  <!-- Defining the language of the document -->
+<head>
+    <meta charset="UTF-8"> <!-- Declaring character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Setting viewport for responsive design -->
+    <link rel="stylesheet" type="text/css" href="catering.css"> <!-- Linking to an external CSS stylesheet -->
+    <title>ED3N CAFE</title> <!-- Setting the title of the document -->
+</head>
+
+<body>    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/"><img src="logo.png" alt="ED3N CAFE Logo" id="block"></a></li> <!-- Navigation link with image logo -->
+                <li class="shared-class"><a href="/menu">Menu</a></li> <!-- Menu link -->
+                <li class="shared-class"><a href="/Booking">Booking</a></li> <!-- Booking link -->
+                <div class="dropdown"> <!-- Dropdown menu for Services -->
+                    <button class="dropbtn">Services
+                      <i class="fa fa-caret-down"></i> <!-- Dropdown caret icon -->
+                    </button>
+                    <div class="dropdown-content">
+                        <li class="shared-class"><a href="/Catering">Catering</a></li> <!-- Catering link -->
+                        <li class="shared-class"><a href="/Venue">Venue</a></li> <!-- Venue link -->
+                </div>   
+            </ul>
+        </nav>
+    </header>
+
+<!-- Venue Section -->
+<div class="venue">
+    <h1>Cater Your Events with ED3N CAFE - Exceptional Catering for Every Occasion</h1>
+    <!-- Introduction -->
+    <p>Welcome to ED3N CAFE, your premier catering service for creating memorable experiences. Whether it's a corporate luncheon, a wedding reception, or a private party, our catering services in Blanchardstown Village are tailored to meet your needs.</p>
+    <ul>
+        <li>Our catering service offers a diverse menu and customizable options to suit your event requirements.</li>
+        <li>Indulge your guests with the exquisite flavors and culinary delights that ED3N CAFE is renowned for.</li>
+        <li>Enhance your event with our professional staff and impeccable service, ensuring a seamless catering experience.</li>
+        <li>Explore our social media channels for a glimpse of our culinary creations and satisfied clients.</li>
+    </ul>
+    <p>Ready to elevate your event with ED3N CAFE's catering service? Contact us today to discuss your catering needs and book your date.</p>
+    <p>Fill out our online form, and our catering team will be delighted to assist you in planning the perfect menu and service for your event.</p>
+</div>
+
+<!-- Gallery Section -->
+<div class="gallery">
+    <h2>Gallery</h2>
+    <!-- Gallery Images -->
+    <div class="gallery-item">
+        <img src="c1.JPG" alt="Gallery Image 1">
+        <div class="gallery-caption">Enjoy our fall treat banana bread</div>
+    </div>
+
+    <div class="gallery-item">
+        <img src="c2.png" alt="Gallery Image 2">
+        <div class="gallery-caption">Traditional filipino desserts</div>
+    </div>
+
+    <div class="gallery-item">
+        <img src="g3.png" alt="Gallery Image 3">
+        <div class="gallery-caption">An Avocado toast for a good morning</div>
+    </div>
+</div>
+
+<!-- Contact Form Section -->
+<div class="container">
+    <h2>Contact Us</h2>
+    <!-- Contact Form -->
+    <form action="/submit1" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="comments">Comments:</label><br>
+        <input type="comments" id="comments" name="comments" rows="4"><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+    <footer>
+        <section id="contact">
+            <div class="contact-info">
+                <h2>Contact Us</h2> <!-- Contact heading -->
+                <p>Feel free to contact us through our contact form</p> <!-- Contact information -->
+            </div>
+    
+            <div class="social-icons"> <!-- Social media section -->
+                <a href="https://www.instagram.com/ed3ncafe/?hl=en" target="_blank">
+                    <img src="insta.png" alt="Instagram icon" class="icon"> <!-- Instagram icon -->
+                </a>
+    
+                <a href="https://www.facebook.com/people/ED3N-Caf%C3%A9/100083322580179/?paipv=0&eav=AfZFNcyrVLydb189aYjIWZgvMdFaErOBXDsRzrSL1SQfvaLc3agEmlbAR2SYgVq8QtY&_rdr" target="_blank">
+                    <img src="icon2.png" alt="Facebook icon" class="icon"> <!-- Facebook icon -->
+                </a>
+            </div>
+        </section>
+        <section id="hours">
+            <h2>Opening Hours</h2> <!-- Opening hours heading -->
+            <p>Monday - Wednesday: 08:30 - 17:00</p> <!-- Business hours -->
+            <p>Thursday - Friday: 08:30 - 18:00</p>
+            <p>Saturday: 10:00 - 18:00</p>
+            <p>Sunday: 13:00 - 18:00</p>
+        </section>
+    
+        <p>&copy; 2024 ED3N CAFE. All rights reserved.</p> <!-- Copyright information -->
+    </footer>
+    </body>
+    </html>
+
+

@@ -1,0 +1,458 @@
+/* Overall Body styles */
+body {
+    font-family: 'Great Vibes',;
+    margin: 0;
+    padding: 0;
+    background-color: #F9D8A2;
+    color: #004632;
+    zoom: 70%; 
+}
+
+/* Header 2 styles */
+h2 {
+    color: #004632;
+}
+
+/* Specials section styles */
+#specials {
+    margin: 15px;
+    background-color: #E9C792;
+    border-radius: 10px;
+    box-shadow: 0 5px 9px rgba(0.2, 0.2, 0.2, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Platters section styles */
+#platters {
+    margin: 15px;
+    background-color: #E9C792;
+    border-radius: 10px;
+    box-shadow: 0 5px 9px rgba(0.2, 0.2, 0.2, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Baos section styles */
+#baos {
+    margin: 15px;
+    background-color: #E9C792;
+    border-radius: 10px;
+    box-shadow: 0 5px 9px rgba(0.2, 0.2, 0.2, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Toasties section styles */
+#toasties {
+    margin: 15px;
+    background-color: #E9C792;
+    border-radius: 10px;
+    box-shadow: 0 5px 9px rgba(0.2, 0.2, 0.2, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Sliders section styles */
+#sliders {
+    margin: 15px;
+    background-color: #E9C792;
+    border-radius: 10px;
+    box-shadow: 0 5px 9px rgba(0.2, 0.2, 0.2, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+/* French toast section styles */
+#french-toast {
+    margin: 15px;
+    background-color: #E9C792;
+    border-radius: 10px;
+    box-shadow: 0 5px 9px rgba(0.8, 0.2, 0.2, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Logo styles */
+#logo {
+    width: 10%;
+    height: 10%;
+    display: block;
+    margin: 20px auto;
+    align-self: center;
+}
+
+/* Anchor styles */
+a {
+    color: #004632;
+    text-decoration: none;
+}
+
+/* Hover effect for anchors */
+a:hover {
+    color: #E9C792;
+}
+
+/* Header styles */
+header {
+    background-color: #004632;
+    padding: 0px;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Navigation unordered list styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Navigation list item styles */
+nav li {
+    margin: 10px; 
+}
+
+/* Navigation anchor image styles */
+nav a img {
+    width: 80px; 
+    height: auto; 
+}
+
+/* Navigation anchor styles */
+nav a {
+    color: #E9C792;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 5px; 
+}
+
+/* Button drop-down styles */
+.button.dropbtn {
+    background-color: #E9C792;
+}
+
+/* Drop-down button styles */
+.dropbtn {
+    background-color: #004632;
+    color: #E9C792;
+    padding: 5px;
+    border: 5px;
+    cursor: pointer;
+    font-family: times;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Hover effect for drop-down button */
+.dropbtn:hover {
+    background-color: #E9C792;
+    color: #004632;
+}
+
+/* Dropdown container styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown content styles */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #E9C792;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Dropdown content anchor styles */
+.dropdown-content a {
+    color: #004632;
+    text-decoration: none;
+    display: block;
+}
+
+/* Hover effect for dropdown content anchor */
+.dropdown-content a:hover {
+    background-color: #004632;
+    color: #E9C792;
+    border-radius: 5px;
+}
+
+/* Show dropdown content on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Block hover styles */
+#block:hover {
+    background-color: #E9C792;
+    color: #004632;
+    border-radius: 5px;
+}
+
+/* Shared class anchor hover styles */
+.shared-class a:hover {
+    background-color: #E9C792;
+    color: #004632;
+}
+/* Header styles */
+h1, h2, h3 {
+    color: #004632;
+}
+
+/* Menu category and drink category styles */
+.menu-category, .drink-category {
+    background-color: #E9C792;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    text-align: center;
+    box-shadow: 0 5px 9px rgba(0.2, 0.2, 0.2, 0.2);
+    text-align: center;
+}
+
+/* Menu item options styles */
+.menu-item-options {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Menu item heading styles */
+.menu-item h3, .drink-item {
+    color: #004632;
+    padding-left: 10px;
+    font-size: 35px;
+}
+
+/* Menu item paragraph styles */
+.menu-item p, .drink-item {
+    color: #004632;
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+/* Last child of menu item paragraph styles */
+.menu-item p:last-child {
+    margin-top: 10px;
+}
+
+/* Our drinks section styles */
+#our-drinks {
+    color: #004632;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Heading 2 styles for our drinks section */
+#our-drinks h2 {
+    color: #004632;
+    margin-bottom: 20px;
+    font-size: 50px;
+    width: 100%;
+}
+
+/* Drink item styles */
+.drink-item {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #E9C792;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Drink item heading styles */
+.drink-item h3 {
+    color: #004632;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+/* Drink item unordered list styles */
+.drink-item ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+/* Drink item list item styles */
+.drink-item li {
+    margin: 5px 0;
+}
+
+
+
+/* Contact section styles */
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2CC91;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Contact section text styles */
+.contact-info {
+    text-align: center;
+}
+
+/* Social media icons styles */
+.social-icons {
+    display: flex;
+    margin-top: 10px;
+}
+
+/* Individual social media icon styles */
+.icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* Hover effect for social media icons */
+.icon:hover {
+    transform: scale(1.2);
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #004632;
+    color: #004632;
+}
+
+/* Hours section styles */
+#hours {
+    background-color: #F2CC91;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Heading 2 styles for hours section */
+#hours h2 {
+    color: #004632;
+}
+
+/* Paragraph styles for hours section */
+#hours p {
+    margin: 10px 0;
+    font-size: 25px;
+    color: #004632;
+}
+
+/* Heading 2 styles for contact section */
+#contact h2 {
+    color: #004632;
+}
+
+/* Contact info paragraph styles */
+.contact-info p {
+    font-size: 25px;
+    color: #004632;
+}
+
+/* Footer text styles */
+footer p {
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+/* Media query for screen sizes up to 768px */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column; 
+        text-align: center; 
+    }
+
+    nav li {
+        margin: 10px 0; 
+    }
+
+    nav a {
+        font-size: 16px; 
+    }
+
+    nav a img {
+        width: 60px; 
+    }
+
+    footer p {
+        margin: 20px 0;
+        font-size: 15px;
+    }
+
+    .contact-info p {
+        font-size: 16px;
+        color: #004632;
+    }
+
+    #hours p {
+        margin: 10px 0;
+        font-size: 16px;
+        color: #004632;
+    }
+
+    .dropbtn {
+        font-size: 16px;
+    }
+}
+
+/* Media query for screen sizes up to 480px */
+@media screen and (max-width: 480px) {
+    nav a {
+        font-size: 16px; 
+    }
+
+    nav a img {
+        width: 50px;
+    }
+
+    footer p {
+        margin: 20px 0;
+        font-size: 15px;
+    }
+
+    .contact-info p {
+        font-size: 16px;
+        color: #004632;
+    }
+
+    #hours p {
+        margin: 10px 0;
+        font-size: 16px;
+        color: #004632;
+    }
+
+    .dropbtn {
+        font-size: 16px;
+    }
+}

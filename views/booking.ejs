@@ -1,0 +1,91 @@
+<!DOCTYPE html> <!-- Declaring the document type as HTML5 -->
+
+<html lang="en">  <!-- Defining the language of the document -->
+<head>
+    <meta charset="UTF-8"> <!-- Declaring character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Setting viewport for responsive design -->
+    <link rel="stylesheet" type="text/css" href="booking.css"> <!-- Linking to an external CSS stylesheet -->
+    <title>ED3N CAFE</title> <!-- Setting the title of the document -->
+</head>
+
+<body>    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/"><img src="logo.png" alt="ED3N CAFE Logo" id="block"></a></li> <!-- Navigation link with company logo -->
+                <li class="shared-class"><a href="/menu">Menu</a></li> <!-- Menu link -->
+                <li class="shared-class"><a href="/Booking">Booking</a></li> <!-- Booking link -->
+                <div class="dropdown"> <!-- Dropdown menu for Services -->
+                    <button class="dropbtn">Services</button>
+                    <div class="dropdown-content">
+                        <li class="shared-class"><a href="/Catering">Catering</a></li> <!-- Catering link -->
+                        <li class="shared-class"><a href="/Venue">Venue</a></li> <!-- Venue link -->
+                </div>   
+            </ul>
+        </nav>
+    </header>
+
+<!-- Reservation Section -->
+<div class="container">
+    <h2>Make a Reservation</h2>
+    <!-- Reservation Form -->
+    <form id="bookingForm" action="/submit" method="post">
+        <!-- Name Input -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <!-- Email Input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <!-- Date Input -->
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required><br>
+
+        <!-- Time Input -->
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required><br>
+
+        <!-- Guests Input -->
+        <label for="Guest">Guests:</label>
+        <input type="number" id="Guest" name="Guest" required><br>
+
+        <!-- Comments Input -->
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+
+    </form>
+</div>
+
+    <footer>
+        <section id="contact">
+            <div class="contact-info">
+                <h2>Contact Us</h2> <!-- Contact heading -->
+                <p>Feel free to contact us through our contact form</p> <!-- Contact information -->
+            </div>
+    
+            <div class="social-icons"> <!-- Social media section -->
+                <a href="https://www.instagram.com/ed3ncafe/?hl=en" target="_blank">
+                    <img src="insta.png" alt="Instagram icon" class="icon"> <!-- Instagram icon -->
+                </a>
+    
+                <a href="https://www.facebook.com/people/ED3N-Caf%C3%A9/100083322580179/?paipv=0&eav=AfZFNcyrVLydb189aYjIWZgvMdFaErOBXDsRzrSL1SQfvaLc3agEmlbAR2SYgVq8QtY&_rdr" target="_blank">
+                    <img src="icon2.png" alt="Facebook icon" class="icon"> <!-- Facebook icon -->
+                </a>
+            </div>
+        </section>
+        <section id="hours">
+            <h2>Opening Hours</h2> <!-- Opening hours heading -->
+            <p>Monday - Wednesday: 08:30 - 17:00</p> <!-- Business hours -->
+            <p>Thursday - Friday: 08:30 - 18:00</p>
+            <p>Saturday: 10:00 - 18:00</p>
+            <p>Sunday: 13:00 - 18:00</p>
+        </section>
+    
+        <p>&copy; 2024 ED3N CAFE. All rights reserved.</p> <!-- Copyright information -->
+    </footer>
+    </body>
+    </html>
